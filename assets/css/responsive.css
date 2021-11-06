@@ -1,0 +1,73 @@
+/* pc */
+@media(min-width: 1024px)
+{
+
+}
+/* tablt & mobile  */
+@media(max-width: 1023px) {
+    .place-btn-buy{
+        padding :15px 16px;
+    }
+    .social a{
+        font-size: 30px;
+        margin: 0 8px ;
+    }
+}
+/* tablet */
+@media(min-width: 740px) and (max-width: 1023px)
+{
+
+}
+/* mobile/*  */ 
+@media(max-width: 739px){
+#wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+.btnsreach{
+  display: none;
+}
+#header {
+  max-width: 100%; 
+  overflow:hidden;
+} 
+#nav {
+    display: block;
+}
+
+#nav li a{
+    display: block;
+    color: #fff;
+}
+#nav li{
+    display: inline;
+    overflow: hidden;
+}
+
+.btnHome{
+    display: block;
+   
+}
+.btnHome:hover #header{
+    overflow : visible;     
+}
+#nav .subnav {
+    position: initial;
+    background-color: #333;
+}
+#content .itemMember{
+    margin-top: 30px;
+    width: 100%;
+}
+#content .avatar{
+    width : 60%;
+}
+.s-colfull{
+    width: 100%;
+    margin-top: 16px;
+}
+.fullwidth{
+        width : 100%;
+        text-align: center;
+}
+}
